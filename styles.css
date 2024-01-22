@@ -6,6 +6,10 @@ h1 {
     color: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -30,7 +34,6 @@ h1 {
 
 .sidebar__navigation .logo img {
     width: 80px;
-
 }
 
 .sidebar nav ul {
@@ -48,4 +51,51 @@ h1 {
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+}
+
+nav section {
+    margin: 0 10px 10px 0;
+    border-radius: 8px;
+}
+
+nav section .card {
+    background-color: #272727 ;
+    border-radius: 8px;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+nav section .card .title {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: inherit;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sidebar .fa-plus {
+    width: inherit;
+    position: absolute;
+    right: 30px;
+    
+}
+
+nav section .card .text {
+    font-family: inherit;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.button {
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    font-family: inherit;
+    font-weight: 600;
+    width: fit-content;
+    border-radius: 15px;
 }
