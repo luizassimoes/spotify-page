@@ -174,3 +174,40 @@ a {
     padding: 8px;
     border-radius: 20px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(175,40,150,1) 0%, rgba(175,40,150,1) 40%, rgba(0,212,255,1) 100%);
+    width: 100%;
+}
+
+.footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family:  "DM Sans", sans-serif;
+    color: #fff;
+    font-weight: 550;
+}
+
+
+.footer .footer__button {
+    background-color: #fff;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    margin: 10px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border-color: transparent;
+    white-space: nowrap;
+    font-family:  "DM Sans", sans-serif;
+    font-weight: 600;
+}
