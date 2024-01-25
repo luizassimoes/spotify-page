@@ -91,3 +91,22 @@
     border-radius: 40px;
     border: none;
 }
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    padding: 0 24px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hello .hello__sec1 {
+    font-size: 32px;
+}
+
+.hello .hello__sec2 {
+    font-size: 24px;
+}
