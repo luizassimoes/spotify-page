@@ -3,6 +3,7 @@ env/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
+*.zip
 
 # Pasta refeerência da imersão
 spotify-imersao-develop/
